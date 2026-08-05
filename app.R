@@ -44,7 +44,7 @@ ui<- shinyUI(fluidPage(
                      sidebarMenu(
                        HTML(paste0(
                          "<br>",
-                         "<img style = 'display: block; margin-left: auto; margin-right: auto;' src='C:/Users/theom/OneDrive/Bureau/revivrelesplayoffs/bioNPS-master/revivrelesplayoffs/nbaplayoffs.jpg' width = '250'></a>",
+                         "<img style = 'display: block; margin-left: auto; margin-right: auto;' src='nbaplayoffs.jpg' width = '250'></a>",
                          "<br>"
                        )),
                        menuItem("Bienvenue", tabName = "home", icon = icon("home")),
