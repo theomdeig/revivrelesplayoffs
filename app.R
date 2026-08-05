@@ -42,11 +42,6 @@ ui<- shinyUI(fluidPage(
     
     dashboardSidebar(width = 300,
                      sidebarMenu(
-                       HTML(paste0(
-                         "<br>",
-                         "<img style = 'display: block; margin-left: auto; margin-right: auto;' src='nbaplayoffs.jpg' width = '250'></a>",
-                         "<br>"
-                       )),
                        menuItem("Bienvenue", tabName = "home", icon = icon("home")),
                        menuItem("Actualités", tabName = "charts", icon = icon("table")),
                        menuItem("Playoffs", tabName = "table", icon = icon("chart-bar")),

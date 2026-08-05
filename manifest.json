@@ -4665,8 +4665,11 @@
     }
   },
   "files": {
+    ".RData": {
+      "checksum": "3e9b82194bc0e4e1f95b9170e6b46ea4"
+    },
     "app.R": {
-      "checksum": "357fe7d4ff0a05ce31a566d787d3b1ce"
+      "checksum": "bcb5aba8613d27eb1e3ba5f38d5e4036"
     },
     "charts.md": {
       "checksum": "7a0225b34def0c7fc3f3ba46d967f5e4"
