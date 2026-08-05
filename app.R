@@ -13,6 +13,7 @@ library(stringi)
 library(reactablefmtr)
 library(rsconnect)
 library(readxl)
+library(markdown)
 
 
 #load données et fonctions
