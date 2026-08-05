@@ -16,13 +16,13 @@ library(readxl)
 
 
 #load données et fonctions
-playoffs<- read_excel("C:/Users/theom/OneDrive/Bureau/revivrelesplayoffs/github/revivrelesplayoffs/data/Playoffs.xlsx")
+playoffs<- read_excel("data/Playoffs.xlsx")
 nf <- function(x) if (is.na(x)) " " else x
 
 
 
 ui<- shinyUI(fluidPage(
-  tags$head(tags$link(rel="shortcut icon", href="C:/Users/theom/OneDrive/Bureau/revivrelesplayoffs/github/revivrelesplayoffs/favicon.ico")),
+  tags$head(tags$link(rel="shortcut icon", href="favicon.ico")),
   
   # load custom stylesheet
   includeCSS("style.css"),
