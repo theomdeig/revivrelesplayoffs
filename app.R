@@ -205,5 +205,5 @@ shinyApp(ui = ui, server = server)
 
 
 
-rsconnect::writeManifest()
+
 
