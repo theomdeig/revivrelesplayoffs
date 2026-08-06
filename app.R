@@ -187,7 +187,7 @@ server<-shinyServer(function(input, output) {
   , defaultPageSize = 50, compact = TRUE, striped = TRUE, searchable = TRUE,
   rowStyle = function(value) {
     if (data[value, "équipes"] %in% c("Lakers - Sixers", "Sixers - Celtics") & data[value, "Année"] == "1980" |
-        data[value, "équipes"] %in% c("Pistons - Bulls", "Pistons - Lakers", "Knicks - Sixers", "Bulls - Knicks", "Bulls - Cavs") & data[value, "Année"] == "1989" |
+        data[value, "équipes"] %in% c("Pistons - Bulls", "Pistons - Lakers", "Knicks - Sixers", "Bulls - Knicks", "Bulls - Cavs", "Knicks - Sixers", "Lakers - Blazers") & data[value, "Année"] == "1989" |
         data[value, "équipes"] %in% c("Spurs - Pistons", "Spurs - Suns", "Suns - Grizzlies", "Sonics - Kings", "Spurs - Sonics") & data[value, "Année"] == "2005") list(background = "#AACDAE")
   }
   ))
